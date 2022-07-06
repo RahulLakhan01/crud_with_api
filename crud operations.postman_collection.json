@@ -1,0 +1,200 @@
+{
+	"id": "f967c66b-3ea9-4f23-43ac-ee6dd6cfd70a",
+	"name": "crud operations",
+	"description": "\n",
+	"order": [
+		"1ce39646-4082-0d2c-2417-74a808481e30",
+		"468e0f11-f45b-9801-8353-2ae1e6958e52",
+		"64e2c597-4345-a668-44bf-3d277fa98988",
+		"5366a63f-32a8-30de-68e1-72ccf8519e77",
+		"7b7904af-6547-e8b2-0166-a9dd8b3914c2",
+		"5b804c8f-3063-ea15-a577-e5f04d785646"
+	],
+	"folders": [
+		{
+			"name": "crud operations",
+			"description": "",
+			"collectionId": "f967c66b-3ea9-4f23-43ac-ee6dd6cfd70a",
+			"order": [],
+			"owner": 0,
+			"folders_order": [],
+			"id": "be60e452-908d-f538-5e77-5037ddcef6f7"
+		}
+	],
+	"folders_order": [
+		"be60e452-908d-f538-5e77-5037ddcef6f7"
+	],
+	"timestamp": 1657099420627,
+	"owner": "21760176",
+	"public": false,
+	"requests": [
+		{
+			"id": "1ce39646-4082-0d2c-2417-74a808481e30",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:3000/show/student/with/roll_no/45",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1657099967773,
+			"name": "http://localhost:3000/show/students",
+			"description": "get all students",
+			"collectionId": "f967c66b-3ea9-4f23-43ac-ee6dd6cfd70a",
+			"responses": []
+		},
+		{
+			"id": "468e0f11-f45b-9801-8353-2ae1e6958e52",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:3000/show/student/with/roll_no/45",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "f967c66b-3ea9-4f23-43ac-ee6dd6cfd70a",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://localhost:3000/show/student/with/roll_no/:id",
+			"description": "get students by id/roll_number",
+			"descriptionFormat": "html",
+			"time": 1657099999195,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "5366a63f-32a8-30de-68e1-72ccf8519e77",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/update/student/Rahul/21/11/10",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "f967c66b-3ea9-4f23-43ac-ee6dd6cfd70a",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:3000request.params.name , request.params.age , request.params.class_num , request.params.roll_no",
+			"description": "update the details of the student",
+			"descriptionFormat": "html",
+			"time": 1657100302642,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": ""
+		},
+		{
+			"id": "5b804c8f-3063-ea15-a577-e5f04d785646",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/update/student/Rahul/21/11/10",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "f967c66b-3ea9-4f23-43ac-ee6dd6cfd70a",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:3000/update/student/:name/:age/:class_num/:roll_no",
+			"description": "update the details of the student",
+			"descriptionFormat": "html",
+			"time": 1657100437435,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": ""
+		},
+		{
+			"id": "64e2c597-4345-a668-44bf-3d277fa98988",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/new/student/gagan/23/12",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "f967c66b-3ea9-4f23-43ac-ee6dd6cfd70a",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:3000/new/student/:name/:age/:class_num",
+			"description": "add a new student",
+			"descriptionFormat": "html",
+			"time": 1657100077185,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": ""
+		},
+		{
+			"id": "7b7904af-6547-e8b2-0166-a9dd8b3914c2",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/delete/student/10",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "f967c66b-3ea9-4f23-43ac-ee6dd6cfd70a",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:3000/delete/student/:id",
+			"description": "delete the details of the student",
+			"descriptionFormat": "html",
+			"time": 1657100388066,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": ""
+		}
+	]
+}

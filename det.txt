@@ -1,0 +1,19 @@
+ Connection-specific DNS Suffix  . : bbrouter
+   IPv6 Address. . . . . . . . . . . : 2402:e280:2310:38d:7c25:5161:56fc:e210
+   Temporary IPv6 Address. . . . . . : 2402:e280:2310:38d:e9ce:f3e7:47cc:1688
+   Link-local IPv6 Address . . . . . : fe80::7c25:5161:56fc:e210%3
+   IPv4 Address. . . . . . . . . . . : 192.168.1.82
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : fe80::1%3
+                                       192.168.1.1
+
+//url--->>
+app.get('/show/students' , db.getUsers);//working
+app.get('/show/student/with/roll_no/:id', db.getUserById);//working
+app.post('/new/student/:name/:age/:class_num', db.createUser);//working
+app.put('/update/student/:name/:age/:class_num/:roll_no', db.updateUser);//working
+app.delete('/delete/student/:id', db.deleteUser);//working
+//url--->>
+
+database port-5432
+localhost port-3000
